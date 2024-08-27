@@ -1,47 +1,9 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "object",
-  "properties": {
-    "name": {
-      "type": "string",
-      "description": "The name of the contract."
-    },
-    "symbol": {
-      "type": "string",
-      "description": "The symbol of the contract."
-    },
-    "description": {
-      "type": "string",
-      "description": "The description of the contract."
-    },
-    "image": {
-      "type": "string",
-      "format": "uri",
-      "description": "A URI pointing to a resource with mime type image/* that represents the contract, typically displayed as a profile picture for the contract."
-    },
-    "banner_image": {
-      "type": "string",
-      "format": "uri",
-      "description": "A URI pointing to a resource with mime type image/* that represents the contract, displayed as a banner image for the contract."
-    },
-    "featured_image": {
-      "type": "string",
-      "format": "uri",
-      "description": "A URI pointing to a resource with mime type image/* that represents the featured image for the contract, typically used for a highlight section."
-    },
-    "external_link": {
-      "type": "string",
-      "format": "uri",
-      "description": "The external link of the contract."
-    },
-    "collaborators": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "description": "An Ethereum address representing an authorized editor of the contract."
-      },
-      "description": "An array of Ethereum addresses representing collaborators (authorized editors) of the contract."
-    }
-  },
-  "required": ["name"]
+  "name": "Metastrike Core",
+  "symbol": "MTSNFT",
+  "description": "NFT Weapons are guns and knives used for combat in most of the Metastrike games, which players use to damage each other's health and kill enemy players to obtain kill rewards, gain tactical advantages, or progress to team elimination round victory",
+  "image": "https://github.com/pthor11/mts_schema_zkevm/blob/main/Screen%20Shot%202024-08-28%20at%2003.20.28.png",
+  "banner_image": "https://github.com/pthor11/mts_schema_zkevm/blob/main/Screen%20Shot%202024-08-28%20at%2003.20.28.png",
+  "featured_image": "https://github.com/pthor11/mts_schema_zkevm/blob/main/Screen%20Shot%202024-08-28%20at%2003.20.28.png",
+  "external_link": "https://metastrike.io"
 }
